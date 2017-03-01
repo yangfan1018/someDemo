@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="emoji-list" scroll-y="true" bindscrolltolower="lower">
+    <navigator wx:for="{{emojiList}}" wx:for-item="emojiItem" class="emoji-item" url="detail/detail?id={{emojiItem.code}}">
+      <image src="http://www.hotkidclub.com/emoji/images/{{emojiItem.code}}/list.jpg"></image>
+      <view>{{emojiItem.name}}</view>
+    </navigator>
+  </view>
+</view>

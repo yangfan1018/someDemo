@@ -1,0 +1,21 @@
+<view class="container">
+    <view class="detail-banner">
+    <image src="http://www.hotkidclub.com/emoji/images/{{emojiDetail.code}}/header.jpg"></image>
+    </view>
+    <view class="emoji-detail">
+        <view class="emoji-name">
+            {{emojiDetail.name}}
+        </view>
+        <!--<view class="emoji-save">
+            {{emojiDetail.name}}
+        </view>-->
+        <view class="emoji-description">
+            {{emojiDetail.description}}
+        </view>
+    </view>
+    <view class="emoji-img">
+        <view wx:for="{{emojiImgList}}" wx:for-item="emojiUrl" >
+            <image src="http://{{emojiUrl.url}}" data-hi="{{emojiUrl.key}}" bindtap="previewImage"></image>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,36 @@
+/* pages/index/detail/detail.wxss */
+.detail-banner image{
+    width:750rpx;
+    height:335rpx;
+}
+.emoji-detail{
+    padding:30rpx;
+}
+.emoji-name{
+    width:400rpx;
+    padding-bottom:20rpx;
+}
+.emoji-save{
+    width:280rpx;
+    padding-bottom:20rpx;
+}
+.emoji-description{
+    font-size:32rpx;
+    color:#666;
+    line-height:25px;
+    
+}
+.emoji-img{
+    width:720rpx;
+    display:flex;
+    flex-wrap: wrap;
+    padding:20rpx 0 30rpx 0;
+}
+.emoji-img view{
+    width:170rpx;
+}
+.emoji-img view image{
+    width:150rpx;
+    height:150rpx;
+    padding:10rpx;
+}

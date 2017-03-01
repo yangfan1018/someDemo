@@ -1,0 +1,23 @@
+/**index.wxss**/
+.emoji-list{
+  width:690rpx;
+  margin:0 auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.emoji-item{
+  width:200rpx;
+  padding:15rpx;
+  
+}
+.emoji-item image{
+  width:200rpx;
+  height:200rpx;
+}
+.emoji-item view{
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
