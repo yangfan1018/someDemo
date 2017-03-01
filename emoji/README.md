@@ -1,1 +1,1 @@
-#一个简单的小程序，未完成
+my new smallApp emoji
