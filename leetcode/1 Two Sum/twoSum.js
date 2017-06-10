@@ -12,5 +12,5 @@ var twoSum = function(nums, target) {
     }
     i = temp.indexOf(nums[i]);
     j = temp.lastIndexOf(nums[j]);
-    return i > j ? [j, i] : [i, j]
+    return j > i ? [i, j] : [j, i];
 };
