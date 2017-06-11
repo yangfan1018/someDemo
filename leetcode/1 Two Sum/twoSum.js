@@ -4,7 +4,7 @@ var twoSum = function(nums, ___a) {
     var i = 0;
     var j = nums.length - 1;
     while (nums[i] + nums[j] != ___a) { //相加为target的时候退出循环
-        if (nums[i] + nums[j] >___a) {
+        if (nums[i] + nums[j] > ___a) {
             j--;
         } else {
             i++;
