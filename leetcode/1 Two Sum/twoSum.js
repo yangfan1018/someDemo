@@ -1,10 +1,10 @@
-var twoSum = function(nums, aaa) {
+var twoSum = function(nums, aa) {
     var temp = nums.slice(0); //数组拷贝
     nums = nums.sort(function(a, b) { return a - b; }); //数组从小到大排序
     var i = 0;
     var j = nums.length - 1;
-    while (nums[i] + nums[j] != aaa) { //相加为target的时候退出循环
-        if (nums[i] + nums[j] > aaa) {
+    while (nums[i] + nums[j] != aa) { //相加为target的时候退出循环
+        if (nums[i] + nums[j] > aa) {
             j--;
         } else {
             i++;
