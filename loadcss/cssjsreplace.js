@@ -13,6 +13,8 @@ function cssjs(a, b) {
     if (type1 != "js" && type1 != "css") {
         return;
     }
+
+    console.log(111)
     var tag, attr;
     type1 == "js" ? (tag = "script", attr = "src") : (tag = "link", attr = "href")
     if (type1 == type2) {
